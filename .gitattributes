@@ -1,0 +1,8 @@
+# GitHub language detection
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+*.c linguist-language=C
+
+# Exclude third-party code from language stats
+thirdparty/* linguist-vendored
+docs/html/* linguist-documentation
